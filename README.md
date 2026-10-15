@@ -4,6 +4,7 @@ About the Project:
 The Student Performance Predictor is a beginner-friendly machine learning project that predicts a student's final marks using study hours, attendance and previous marks.
 
 Features:
+
 1.Analyzes student performance data using Pandas and NumPy.
 2.Uses Linear Regression to predict final marks.
 3.Accepts student details through user input.
