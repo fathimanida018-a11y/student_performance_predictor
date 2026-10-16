@@ -1,41 +1,53 @@
-Student Performance Predictor 
+Student Performance Predictor
 
 About the Project:
-The Student Performance Predictor is a beginner-friendly machine learning project that predicts a student's final marks using study hours, attendance and previous marks.
+The Student Performance Predictor is a beginner-friendly machine learning project that predicts a student's target CGPA (out of 10) using study hours, attendance, and previous CGPA.
 
 Features:
-
-1.Analyzes student performance data using Pandas and NumPy.
-2.Uses Linear Regression to predict final marks.
-3.Accepts student details through user input.
-4.Includes basic input validation.
+- Uses student data to train a machine learning model.
+- Predicts target CGPA using Linear Regression.
+- Accepts student details through user input.
+- Includes input validation for study hours, attendance, and CGPA.
+- Provides basic feedback based on the predicted CGPA.
 
 Technologies Used:
 - Python
-- NumPy
 - Pandas
+- NumPy
 - Jupyter Notebook
 - Linear Regression using NumPy's least-squares method
 
 How It Works:
-1. Loads student performance data into a Pandas DataFrame.
-2. Explores and analyzes the dataset.
-3. Separates the input features from the target variable.
-4. Trains a Linear Regression model using NumPy.
-5. Predicts final marks for new student inputs.
+1. Creates a sample student performance dataset.
+2. Organizes and processes the data using Pandas.
+3. Separates input features from the target CGPA.
+4. Splits the data into training and testing sets.
+5. Trains a Linear Regression model using NumPy.
+6. Evaluates the model using R² score and Mean Absolute Error (MAE).
+7. Accepts new student details and predicts their target CGPA.
 
-Dataset:
-The current dataset contains 10 sample student records. It includes study hours, attendance, previous marks and final marks.
+Input Features:
+- Study Hours:Average hours spent studying per day.
+- Attendance:Attendance percentage.
+- Previous CGPA:Student's previous CGPA out of 10.
 
-Current Limitations
-- The dataset is small and created for learning purposes.
-- The predictions are not reliable enough for real-world academic decisions.
-- The project may be improved with more data and further model evaluation.
+Target Variable
+Target CGPA:The CGPA the model aims to predict, out of 10.
+
+Dataset
+The project currently uses 10 sample student records. The target CGPA values are illustrative and are intended for learning and testing the model.
+
+Limitations
+- The dataset is very small.
+- The sample data is illustrative and does not represent verified real-world student outcomes.
+- Predictions may not be accurate enough for real academic decisions.
+- More realistic data and additional testing are needed to improve reliability.
 
 Future Improvements
-- Use a larger, more realistic dataset.
-- Improve model evaluation.
-- Build a simple user interface.
+- Use a larger dataset with actual student performance outcomes.
+- Improve model accuracy and evaluation.
+- Add more relevant student performance features.
+- Build a simple user interface for easier use.
 
-Project Status
-Beginner-level prototype — currently under development.
+## Project Status
+Beginner-level machine learning prototype — under development.
